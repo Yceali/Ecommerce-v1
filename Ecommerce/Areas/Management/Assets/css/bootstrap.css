@@ -1445,6 +1445,7 @@ dt {
 }
 dd {
   margin-left: 0;
+  text-align:left;
 }
 @media (min-width: 768px) {
   .dl-horizontal dt {
@@ -3041,20 +3042,20 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+    color: #fff;
+    background-color: #68AE00;
+    border-color: #ccc;
 }
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
-}
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default.focus,
+    .btn-default:active,
+    .btn-default.active,
+    .open > .dropdown-toggle.btn-default {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #adadad;
+    }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
